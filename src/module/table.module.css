@@ -1,0 +1,27 @@
+@value colors: "./colors.module.css";
+@value test from colors; 
+
+.table {
+    border-collapse: collapse
+}
+
+.table_cell {
+    border-color: #000;
+    border-style: solid;
+}
+
+.green { 
+    color: green;
+}
+
+.red {
+    color: test;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.table_cell:hover {
+    color: yellow;
+}
